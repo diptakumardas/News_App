@@ -23,7 +23,7 @@ class NewsDetailsScreen extends StatefulWidget {
 
 class _NewsDetailsScreenState extends State<NewsDetailsScreen> {
   @override
-  final format = DateFormat('MMMM dd, yyyy');
+  final format = DateFormat('MMM dd, yyyy');
   Widget build(BuildContext context) {
 
     final width = MediaQuery.sizeOf(context).width * 1;
